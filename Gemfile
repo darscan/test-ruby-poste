@@ -2,29 +2,23 @@ source 'https://rubygems.org'
 
 ruby '1.9.3'
 
-# This change was made via Snyk to fix a vulnerability
-gem 'rails', '>= 3.2.22.2'
+gem 'rails', '3.2.18'
 gem 'thin', '1.3.1'
 gem 'pg', '0.13.2'
 gem 'haml', '3.1.4'
 gem 'haml-rails', '0.3.4'
 gem 'sass', '~> 3.2.1'
-# This change was made via Snyk to fix a vulnerability
-gem 'rails_admin', '>= 0.0.5'
-# This change was made via Snyk to fix a vulnerability
-gem 'devise', '>= 3.5.4'
+gem 'rails_admin'
+gem 'devise', '2.0.4'
 gem 'sunspot_rails', '1.3.1'
 gem 'gmaps4rails', '1.5.1'
-# This change was made via Snyk to fix a vulnerability
-gem 'paperclip', '>= 4.2.2'
+gem 'paperclip', '3.0.3'
 gem 'aws-sdk', '1.5.2'
 gem 'progress_bar', '0.4.0'
-# This change was made via Snyk to fix a vulnerability
-gem 'will_paginate', '>= 3.0.5'
+gem 'will_paginate', '~> 3.0'
 gem 'paperclip-meta', '0.4.3'
 gem 'sitemap_generator'
-# This change was made via Snyk to fix a vulnerability
-gem 'fog', '>= 1.14.0'
+gem 'fog'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.10.0'
@@ -44,8 +38,7 @@ end
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
-# This change was made via Snyk to fix a vulnerability
-  gem 'uglifier', '>= 2.7.2'
+  gem 'uglifier', '1.2.4'
 end
 
 gem 'jquery-rails', '~> 2.0'
